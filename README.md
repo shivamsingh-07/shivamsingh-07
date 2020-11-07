@@ -1,16 +1,23 @@
-### Hi there 👋
+# Shivam Singh
 
-<!--
-**shivamsingh-07/shivamsingh-07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Gmail Badge](https://img.shields.io/badge/shivm.0701@gmail.com-30302f?style=flat&logo=Gmail&logoColor=red)](mailto:shivm.0701@gmail.com "Email")
+[![Steam Badge](https://img.shields.io/badge/A%20B%20S%20T%20E%20R%20G%20O-30302f?style=flat&logo=Steam&logoColor=blue)](https://steamcommunity.com/profiles/76561198344056201 "Steam Profile")
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Hi there 👋,
+
+#### My name is Shivam Singh. I'm currently a student of B.Tech in Computer Science and Engineering at JSSATE, Noida. I like make new stuff in the field of web development.
+
+---
+
+## Know me better 😃
+
+-   🏄‍ Backend Web Developer
+-   🌱 I’m currently setting my hands on cloud computing.
+-   🔭 Proud to be a member of Nibble Computer Society at JSSATEN.
+-   🎨 Secret: I also love to play games.
+
+---
+
+![Shivam's Github Stats](https://github-readme-stats.vercel.app/api?username=shivamsingh-07&show_icons=true)
