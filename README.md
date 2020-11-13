@@ -11,7 +11,7 @@
 
 ## Know me better 😃
 
--   🏄‍ Backend Web Developer
+-   🏄‍ Web Developer
 -   🌱 I’m currently setting my hands on cloud computing.
 -   🔭 Proud to be a member of Nibble Computer Society at JSSATEN.
 -   🎨 Secret: I also love to play games.
