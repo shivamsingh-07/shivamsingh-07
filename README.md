@@ -5,7 +5,7 @@
 
 ## Hi there 👋,
 
-#### My name is Shivam Singh. I'm currently a student of B.Tech in Computer Science and Engineering at JSSATE, Noida. I like make new stuff in the field of web development.
+#### My name is Shivam Singh. I'm currently a student of B.Tech in Computer Science and Engineering at JSSATE, Noida. I like to make new stuff in the field of web development.
 
 
 ## Know me better 😃
