@@ -5,14 +5,15 @@
 ![](https://komarev.com/ghpvc/?username=shivamsingh-07&color=blue)
 <a href="https://github.com/shivamsingh-07/"> ![GitHub followers](https://img.shields.io/github/followers/shivamsingh-07?label=Follow&style=social)</a>
 
-I'm a passionate, self-taught undergraduate student in Computer Science 🎓. Willing to tackle genuine world 🌍 issues and assist people in utilizing innovation that I appreciate 🤩.
+I'm a passionate, self-motivated computer science undergraduate student with a wide range of skills and experience in web
+ development, cloud computing, and DevOps.
 
 <!-- <img align="right" alt="GIF of Me" width="375" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" /> -->
 
 ## 😀 Talking about Personal Stuffs:
 
--   🛠 &nbsp; I’m currently working with Node.js and MongoDB.
--   🚀 &nbsp; I’m also exploring DevOps tools like docker, jenkins, kubernetes etc.
+-   🚀 &nbsp; I’m working on DevOps tools like docker, jenkins, kubernetes, terraform etc.
+-   ☁️ &nbsp; I'm also exploring latest cloud technologies and services provided by AWS.
 -   👨🏻‍💻 &nbsp; Most of my projects are available on [Github](https://github.com/shivamsingh-07?tab=repositories).
 -   💬 &nbsp; Ask me about anything [here](https://www.linkedin.com/in/shivamsingh-07/)! I'm happy to help.
 -   📫 &nbsp; How to reach me: shivm.0701@gmail.com.
