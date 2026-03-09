@@ -191,18 +191,6 @@ function highlightNavLink() {
 
 window.addEventListener("scroll", highlightNavLink);
 
-// ===== Skill Tags Hover Effect =====
-const skillTags = document.querySelectorAll(".skill-tag");
-skillTags.forEach((tag) => {
-  tag.addEventListener("mouseenter", function () {
-    this.style.transform = "translateY(-2px) scale(1.05)";
-  });
-
-  tag.addEventListener("mouseleave", function () {
-    this.style.transform = "translateY(0) scale(1)";
-  });
-});
-
 // ===== Project Cards Tilt Effect =====
 const projectCards = document.querySelectorAll(".project-card");
 projectCards.forEach((card) => {
