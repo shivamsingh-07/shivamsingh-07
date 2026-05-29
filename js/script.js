@@ -27,7 +27,6 @@ navLinks.forEach((link) => {
 });
 
 // ===== Smooth Scrolling (Optimized for 60fps) =====
-let isScrolling = false;
 let scrollAnimationId = null;
 
 function smoothScrollTo(targetPosition, duration = 1500) {
@@ -55,7 +54,6 @@ function smoothScrollTo(targetPosition, duration = 1500) {
     } else {
       // Ensure we end exactly at target position
       window.scrollTo(0, targetPosition);
-      isScrolling = false;
       scrollAnimationId = null;
     }
   }
@@ -65,7 +63,6 @@ function smoothScrollTo(targetPosition, duration = 1500) {
     return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
   }
 
-  isScrolling = true;
   scrollAnimationId = requestAnimationFrame(animation);
 }
 
@@ -157,7 +154,7 @@ window.addEventListener("scroll", () => {
 
   orbs.forEach((orb, index) => {
     const speed = 0.5 + index * 0.1;
-    orb.style.transform = `translateY(${scrolled * speed}px)`;
+    orb.style.translate = `0 ${scrolled * speed}px`;
   });
 });
 
@@ -189,30 +186,6 @@ function highlightNavLink() {
   });
 }
 
-window.addEventListener("scroll", highlightNavLink);
-
-// ===== Project Cards Tilt Effect =====
-const projectCards = document.querySelectorAll(".project-card");
-projectCards.forEach((card) => {
-  card.addEventListener("mousemove", (e) => {
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-
-    const centerX = rect.width / 2;
-    const centerY = rect.height / 2;
-
-    const rotateX = (y - centerY) / 10;
-    const rotateY = (centerX - x) / 10;
-
-    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-5px)`;
-  });
-
-  card.addEventListener("mouseleave", () => {
-    card.style.transform = "perspective(1000px) rotateX(0) rotateY(0) translateY(0)";
-  });
-});
-
 // ===== Scroll Progress Indicator =====
 function createScrollProgress() {
   const progressBar = document.createElement("div");
@@ -228,27 +201,8 @@ function createScrollProgress() {
 
 createScrollProgress();
 
-// ===== Cursor Trail Effect (Optional) =====
-let cursorTrail = [];
-const trailLength = 20;
-
-document.addEventListener("mousemove", (e) => {
-  cursorTrail.push({ x: e.clientX, y: e.clientY, time: Date.now() });
-
-  if (cursorTrail.length > trailLength) {
-    cursorTrail.shift();
-  }
-
-  // Remove old trail points
-  cursorTrail = cursorTrail.filter((point) => Date.now() - point.time < 500);
-});
-
 // ===== Initialize on Load =====
 window.addEventListener("load", () => {
-  // Add loaded class for fade-in animations
-  document.body.classList.add("loaded");
-
-  // Trigger initial animations
   const heroText = document.querySelector(".hero-text");
   if (heroText) {
     heroText.classList.add("fade-in");
