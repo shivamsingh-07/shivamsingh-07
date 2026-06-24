@@ -262,8 +262,11 @@
                     </div>
                     <div class="skill-tags">
                         <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">EC2</span>
                         <span class="skill-tag">EKS</span>
+                        <span class="skill-tag">S3</span>
+                        <span class="skill-tag">SQS</span>
+                        <span class="skill-tag">RDS</span>
+                        <span class="skill-tag">CloudFront</span>
                         <span class="skill-tag">Terraform</span>
                         <span class="skill-tag">Ansible</span>
                     </div>
@@ -277,6 +280,8 @@
                         <span class="skill-tag">Docker</span>
                         <span class="skill-tag">Kubernetes</span>
                         <span class="skill-tag">Helm</span>
+                        <span class="skill-tag">KEDA</span>
+                        <span class="skill-tag">HPA</span>
                     </div>
                 </div>
                 <div class="skill-category glass-card" data-aos="zoom-in" data-aos-delay="200">
@@ -310,20 +315,21 @@
                     <div class="skill-tags">
                         <span class="skill-tag">Python</span>
                         <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">Node.js</span>
                         <span class="skill-tag">Linux</span>
                         <span class="skill-tag">Git</span>
                     </div>
                 </div>
                 <div class="skill-category glass-card" data-aos="zoom-in" data-aos-delay="500">
                     <div class="category-header">
-                        <i class="fas fa-gears"></i>
-                        <h3>DevOps & SRE Practices</h3>
+                        <i class="fas fa-database"></i>
+                        <h3>Backend & Data</h3>
                     </div>
                     <div class="skill-tags">
-                        <span class="skill-tag">Blue/Green Deployments</span>
-                        <span class="skill-tag">HPA Autoscaling</span>
-                        <span class="skill-tag">Incident Management</span>
-                        <span class="skill-tag">Root Cause Analysis</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Nginx</span>
                     </div>
                 </div>
             </div>
@@ -451,6 +457,34 @@
             <div class="projects-grid">
                 <div class="project-card glass-card" data-aos="flip-left" data-aos-delay="0">
                     <div class="project-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Animus</h3>
+                    <ul class="project-highlights">
+                        <li>A Netflix-style streaming platform where users watch adaptive video and admins upload and
+                            manage titles</li>
+                        <li>Uploaded videos are automatically transcoded by background workers that scale up or down
+                            based on queue load (KEDA)</li>
+                        <li>Split into four services — website, admin panel, API, and transcoder — each containerized
+                            and deployed on Kubernetes</li>
+                        <li>Runs on AWS (EKS, S3, SQS, RDS, CloudFront) in production; same stack runs locally on
+                            minikube for development</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Kubernetes</span>
+                        <span>KEDA</span>
+                        <span>AWS</span>
+                        <span>Docker</span>
+                        <span>S3</span>
+                        <span>SQS</span>
+                        <span>Flask</span>
+                        <span>MySQL</span>
+                    </div>
+                    <a href="https://github.com/shivamsingh-07/animus" class="project-link" target="_blank"
+                        rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card glass-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-icon">
                         <i class="fas fa-robot"></i>
                     </div>
                     <h3>AI Chat Platform</h3>
@@ -474,7 +508,7 @@
                     <a href="https://github.com/shivamsingh-07/ai-chat" class="project-link" target="_blank"
                         rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="project-card glass-card" data-aos="flip-left" data-aos-delay="100">
+                <div class="project-card glass-card" data-aos="flip-left" data-aos-delay="200">
                     <div class="project-icon">
                         <i class="fas fa-graduation-cap"></i>
                     </div>
@@ -496,27 +530,6 @@
                         <span>Vagrant</span>
                     </div>
                     <a href="https://github.com/shivamsingh-07/sre-pipeline" class="project-link" target="_blank"
-                        rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="project-card glass-card" data-aos="flip-left" data-aos-delay="200">
-                    <div class="project-icon">
-                        <i class="fas fa-cubes"></i>
-                    </div>
-                    <h3>Deploy K8s</h3>
-                    <ul class="project-highlights">
-                        <li>Automated provisioning of a 3-node Kubernetes cluster (1 control plane, 2 workers)</li>
-                        <li>Cilium eBPF-based CNI running kube-proxy-free for high-performance networking</li>
-                        <li>Reproducible Ubuntu VMs on VirtualBox via Vagrant with fixed IPs and resource limits</li>
-                        <li>Idempotent Ansible playbooks for kubeadm, kubelet, kubectl, and CRI-O setup</li>
-                        <li>Bash automation with error handling to minimize manual overhead</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span>Kubernetes</span>
-                        <span>Vagrant</span>
-                        <span>Ansible</span>
-                        <span>Bash</span>
-                    </div>
-                    <a href="https://github.com/shivamsingh-07/deploy-k8s" class="project-link" target="_blank"
                         rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 
 # 👋 Hello, I'm Shivam Singh
 
-### 🚀 DevOps & SRE Engineer | Operational Engineer
+### 🚀 DevOps | Site Reliability Engineer
 
 [![LinkedIn](https://img.shields.io/badge/Shivam%20Singh-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivamsingh-07)
 ![Profile Views](https://komarev.com/ghpvc/?username=shivamsingh-07&color=blue&style=for-the-badge)
@@ -51,8 +51,8 @@ My core strengths span **CI/CD pipeline design**, **infrastructure automation**,
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![AWS CodePipeline](https://img.shields.io/badge/AWS_CodePipeline-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Rundeck](https://img.shields.io/badge/Rundeck-F73F39?style=for-the-badge&logo=rundeck&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Rundeck](https://img.shields.io/badge/Rundeck-339933?style=for-the-badge&logo=rundeck&logoColor=white)
 
 ### 🏗️ Infrastructure as Code
 
@@ -82,15 +82,6 @@ My core strengths span **CI/CD pipeline design**, **infrastructure automation**,
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-## 💼 Experience
-
-- **Operational Engineer** — CSG Systems International _(Feb 2023 – Present)_
-  Production deployments, Blue/Green releases, Rundeck automation, Python tooling, and observability with Prometheus, Grafana, and Kibana.
-- **Cloud Engineer Intern** — Digital Alpha Platforms _(Apr 2022 – Jul 2022)_
-  Containerized full-stack deployments on AWS EC2 with Docker and CI/CD via AWS CodePipeline.
-- **DevOps Engineer Intern** — ADmyBRAND _(Nov 2021 – Jun 2022)_
-  Docker containerization, Jenkins CI/CD pipelines, and Kubernetes deployments on AWS EKS.
 
 ## 📊 GitHub Stats
 
